@@ -6,6 +6,7 @@ html, body {
 .container {
     height: 100vh;
 
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 2fr 7fr;
     grid-template-rows: 1fr 5fr;
@@ -18,6 +19,10 @@ html, body {
     grid-row-start: 1;
     grid-row-end: 3;
 
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
     display: grid;
     grid-template-rows: repeat(20, 1fr);
     gap: 1rem;
@@ -26,6 +31,7 @@ html, body {
 .sidebar>.logo {
     grid-row-start: 1;
     grid-row-end: 3;
+    font-size: 26px;
 }
 
 .main-content {
