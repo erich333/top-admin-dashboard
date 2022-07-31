@@ -42,4 +42,24 @@ html, body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: grid;
+    grid-template-areas: 
+        "searchbar status-bar"
+        " greeting    buttons";
+}
+
+.header>.searchbar {
+    grid-area: searchbar;
+}
+
+.header>.status-bar {
+    grid-area: status-bar;
+}
+
+.header>.greeting {
+    grid-area: greeting;
+}
+
+.header>.buttons {
+    grid-area: buttons;
 }
