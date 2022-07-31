@@ -63,3 +63,21 @@ html, body {
 .header>.buttons {
     grid-area: buttons;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content>.project-cards {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.main-content>.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.main-content>.trending {
+    grid-area: 2 / 2 / 3 / 3;
+}
