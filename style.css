@@ -24,15 +24,32 @@ html, body {
     font-size: 18px;
 
     display: grid;
-    grid-template-rows: repeat(20, 1fr);
-    gap: 1rem;
+    grid-template-rows: 2fr repeat(18, 1fr);
+    gap: .25rem;
 }
 
-.sidebar>.logo {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    font-size: 26px;
+.sidebar>.logo>.row-text {
+    font-size: 28px;
 }
+
+.sidebar>.sidebar-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar .row-icon {
+    height: 1.25em;
+    place-self: center;
+}
+
+.sidebar>.logo>.row-icon {
+    height: 2.25em;
+}
+
+.sidebar .row-text {
+    align-self: center;
+}
+
 
 .main-content {
     background-color: #dcfce7;
