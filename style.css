@@ -67,8 +67,9 @@ html, body {
     grid-row-end: 2;
     display: grid;
     grid-template-areas: 
-        "searchbar status-bar"
-        " greeting    buttons";
+        "searchbar searchbar searchbar status-bar status-bar"
+        " greeting  greeting  greeting    buttons    buttons";
+    align-items: center;
 }
 
 .header>.searchbar {
