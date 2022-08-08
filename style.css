@@ -90,6 +90,18 @@ html, body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.header>.buttons button {
+    border-style: none;
+    border-radius: 1.25em;
+    width: 75%;
+    height: 2.5em;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: white;
+    background-color: #15803d;
+}
+
 .main-content {
     display: grid;
     grid-template-columns: 8fr 3fr;
