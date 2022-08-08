@@ -86,6 +86,8 @@ html, body {
 
 .header>.buttons {
     grid-area: buttons;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .main-content {
