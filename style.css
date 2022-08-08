@@ -112,3 +112,7 @@ html, body {
 .main-content>.trending {
     grid-area: 2 / 2 / 3 / 3;
 }
+
+.user-avatar {
+    border-radius: 50%;
+}
