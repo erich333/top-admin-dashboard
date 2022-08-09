@@ -103,10 +103,32 @@ button {
 
 .header>.status-bar {
     grid-area: status-bar;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .header>.greeting {
     grid-area: greeting;
+
+    display: grid;
+    grid-template-areas: 
+        "avatar hello hello hello hello hello"
+        "avatar names names names names names";
+}
+
+.greeting .user-avatar {
+    grid-area: avatar;
+}
+
+.greeting .hello-text {
+    grid-area: hello;
+}
+
+.greeting .full-and-username {
+    grid-area: names;
 }
 
 .header>.buttons {
