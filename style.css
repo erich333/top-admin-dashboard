@@ -93,14 +93,6 @@ button {
     align-items: center;
 }
 
-.header .searchbar button {
-    border-style: none;
-    border-radius: 1em;
-    height: 2em;
-    width: 2em;
-    background-color: transparent;
-}
-
 .header .searchbar input {
     border-style: none;
     height: 2em;
@@ -174,6 +166,14 @@ button {
 
 .main-content>.trending {
     grid-area: 2 / 2 / 3 / 3;
+}
+
+.icon-button {
+    border-style: none;
+    border-radius: 1em;
+    height: 2em;
+    width: 2em;
+    background-color: transparent;
 }
 
 .user-avatar {
