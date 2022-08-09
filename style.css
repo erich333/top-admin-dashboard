@@ -201,3 +201,11 @@ button {
 .user-avatar {
     border-radius: 50%;
 }
+
+.white-box {
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
