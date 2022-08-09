@@ -70,6 +70,10 @@ html, body {
         "searchbar searchbar searchbar status-bar status-bar"
         " greeting  greeting  greeting    buttons    buttons";
     align-items: center;
+
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .header>.searchbar {
