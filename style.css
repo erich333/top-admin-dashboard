@@ -57,7 +57,7 @@ button {
 
 
 .main-content {
-    background-color: #dcfce7;
+    background-color: #bbf7d0;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -65,7 +65,7 @@ button {
 }
 
 .header {
-    background-color: #bbf7d0;
+    background-color: white;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
