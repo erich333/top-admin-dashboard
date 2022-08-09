@@ -172,14 +172,9 @@ button {
 }
 
 .project-cards>.card {
-    background-color: white;
-    padding-left: 25px;
-    padding-right: 15px;
-    border-radius: 10px;
     border-left-style: solid;
     border-left-width: 10px;
     border-left-color: #3f32fc;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .main-content>.announcements {
