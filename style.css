@@ -74,6 +74,30 @@ html, body {
 
 .header>.searchbar {
     grid-area: searchbar;
+    display: grid;
+    justify-items: center;
+}
+
+.header .searchbar form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.header .searchbar button {
+    border-style: none;
+    border-radius: 1em;
+    height: 2em;
+    width: 2em;
+    background-color: transparent;
+}
+
+.header .searchbar input {
+    border-style: none;
+    height: 2em;
+    width: 100%;
+    border-radius: 1em;
+    background-color: #dcfce7;
 }
 
 .header>.status-bar {
