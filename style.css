@@ -104,6 +104,9 @@
     grid-template-columns: repeat(3, auto);
     justify-items: center;
     align-items: center;
+
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .header>.greeting {
@@ -121,10 +124,14 @@
 
 .greeting .hello-text {
     grid-area: hello;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .greeting .full-and-username {
     grid-area: names;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .header>.buttons {
