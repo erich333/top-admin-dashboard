@@ -179,7 +179,7 @@
     margin-bottom: 10px;
 }
 
-.project-cards>.card {
+.project-cards .card {
     border-left-style: solid;
     border-left-width: 10px;
     border-left-color: #3f32fc;
@@ -188,20 +188,20 @@
     grid-template-rows: auto 2em;
 }
 
-.project-cards>.card .button-bar {
+.project-cards .card .button-bar {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
 
-.project-cards>.card .button-bar .fork {
+.project-cards .card .button-bar .fork {
     grid-column: -2 / -1;
 }
 
-.project-cards>.card .button-bar .eyeball {
+.project-cards .card .button-bar .eyeball {
     grid-column: -3 / -2;
 }
 
-.project-cards>.card .button-bar .favorite {
+.project-cards .card .button-bar .favorite {
     grid-column: -4 / -3;
 }
 
