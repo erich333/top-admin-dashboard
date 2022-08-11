@@ -69,6 +69,7 @@
     grid-template-areas: 
         "searchbar searchbar searchbar status-bar status-bar"
         " greeting  greeting  greeting    buttons    buttons";
+    column-gap: 20px;
     align-items: center;
 
     padding: 25px;
