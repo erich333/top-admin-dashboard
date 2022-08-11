@@ -115,6 +115,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: auto 1fr;
+    gap: 5px;
 }
 
 .greeting .user-avatar {
@@ -125,6 +126,7 @@
     grid-area: 1 / 2 / 2 / 3;
     font-weight: 600;
     font-size: 14px;
+    align-self: end;
 }
 
 .greeting .full-and-username {
