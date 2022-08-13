@@ -141,6 +141,9 @@
     grid-area: buttons;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
+    align-self: end;
+    margin-bottom: 10px;
 }
 
 .header>.buttons button {
