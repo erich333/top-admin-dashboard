@@ -232,6 +232,7 @@
 
 .main-content>.trending {
     grid-area: 2 / 2 / 3 / 3;
+    font-size: 14px;
 }
 
 .main-content .trending .white-box {
@@ -250,6 +251,9 @@
 
 .main-content .trending .trending-item .username-text {
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    align-items: end;
+    margin-bottom: 2px;
 }
 
 .main-content .trending .trending-item .user-title {
