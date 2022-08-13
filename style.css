@@ -192,7 +192,7 @@
     border-left-color: #3f32fc;
 
     display: grid;
-    grid-template-rows: 119px 2em;
+    grid-template-rows: auto 2em;
 }
 
 .project-cards .card .button-bar {
