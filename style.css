@@ -75,6 +75,8 @@
     padding: 25px;
     padding-top: 0;
     padding-bottom: 0;
+    z-index: 1;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .header>.searchbar {
@@ -190,7 +192,7 @@
     border-left-color: #3f32fc;
 
     display: grid;
-    grid-template-rows: auto 2em;
+    grid-template-rows: 119px 2em;
 }
 
 .project-cards .card .button-bar {
