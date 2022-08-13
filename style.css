@@ -223,6 +223,12 @@
     font-size: 14px;
 }
 
+.main-content .announcements hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+}
+
 .main-content>.trending {
     grid-area: 2 / 2 / 3 / 3;
 }
