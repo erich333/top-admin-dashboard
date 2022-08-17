@@ -1,3 +1,15 @@
+:root {
+    --dark-bg-color: #15803d;
+    --mid-bg-color:  #bbf7d0;
+    --light-bg-color: white;
+    --card-tab-color: #3f32fc;
+    --mid-text-color: grey;
+    --light-text-color: white;
+    --shadow-color: rgba(0, 0, 0, 0.25);
+    --hr-border-color: lightgrey;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -13,13 +25,13 @@
 }
 
 .sidebar {
-    background-color: #15803d;
+    background-color: var(--dark-bg-color);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
 
-    color: white;
+    color: var(--light-text-color);
     font-weight: 700;
     font-size: 18px;
 
@@ -52,7 +64,7 @@
 
 
 .main-content {
-    background-color: #bbf7d0;
+    background-color: var(--mid-bg-color);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -60,7 +72,7 @@
 }
 
 .header {
-    background-color: white;
+    background-color: var(--light-bg-color);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -76,7 +88,7 @@
     padding-top: 0;
     padding-bottom: 10px;
     z-index: 1;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 3px var(--shadow-color);
 }
 
 .header>.searchbar {
@@ -94,7 +106,7 @@
     height: 2em;
     width: 100%;
     border-radius: 1em;
-    background-color: #dcfce7;
+    background-color: var(--mid-bg-color);
 }
 
 .header>.status-bar {
@@ -154,8 +166,8 @@
     font-size: 14px;
     font-weight: 600;
 
-    color: white;
-    background-color: #15803d;
+    color: var(--light-text-color);
+    background-color: var(--dark-bg-color);
 }
 
 .main-content {
@@ -169,7 +181,7 @@
 }
 
 .main-content .description {
-    color: grey;
+    color: var(--mid-text-color);
 }
 
 .main-content>.project-cards {
@@ -192,7 +204,7 @@
 .project-cards .card {
     border-left-style: solid;
     border-left-width: 10px;
-    border-left-color: #3f32fc;
+    border-left-color: var(--card-tab-color);
 
     display: grid;
     grid-template-rows: 121px 30px;
@@ -232,7 +244,7 @@
 .main-content .announcements hr {
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 1px solid lightgray;
+    border: 1px solid var(--hr-border-color);
 }
 
 .main-content>.trending {
@@ -278,11 +290,11 @@
 }
 
 .white-box {
-    background-color: white;
+    background-color: var(--light-bg-color);
     padding-left: 25px;
     padding-right: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 3px var(--shadow-color);
 }
