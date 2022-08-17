@@ -1,13 +1,12 @@
 :root {
-    --dark-bg-color: #15803d;
-    --mid-bg-color:  #bbf7d0;
+    --dark-bg-color: #047857;
+    --mid-bg-color:  #a7f3d0;
     --light-bg-color: white;
-    --card-tab-color: #3f32fc;
-    --mid-text-color: grey;
+    --card-tab-color: #047857;
+    --mid-text-color: rgb(41, 34, 34);
     --light-text-color: white;
     --shadow-color: rgba(0, 0, 0, 0.25);
     --hr-border-color: lightgrey;
-
 }
 
 * {
